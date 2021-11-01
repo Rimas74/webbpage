@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+ <!-- Font awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Resume Website</title>
+  </head>
+
+<body class="row bg-dark text-light position-reletive w-100 vh-100 text-shadow">
+<!--NAVIGATION-->
+<nav class="navbar navbar-dark bg-dark vh-100 col-1 d-md-none" style="width:80px">
+<div class="container">
+    <div>
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 fs-4">
+            <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" title="Home">
+                <a href="#" class="nav-link active" arria-current="page">
+                    <i class="bi bi-house text-success"></i>
+                </a>
+            </li>
+            <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" title="About">
+                <a href="#About" class="nav-link">
+                    <i class="bi bi-person "></i>
+                </a>
+            </li>
+            <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" title="Services">
+                <a href="#Services" class="nav-link">
+                    <i class="bi bi-briefcase "></i>
+                </a>
+            </li>
+            <li class="nav-item" data-bs-toggle="tooltip" data-bs-placement="right" title="Contact">
+                <a href="#Contact" class="nav-link">
+                    <i class="bi bi-telephone "></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+</nav>
+<!--HEADER-->
+<header
+        class="position-relative vh-100 col-10 col-md-4"
+        style="background: url(https://source.unsplash.com/N2IJ31xZ_ks) center/cover no-repeat;">
+    <div class="position-relative top-50 mt-5 row row-cols-1 text-center">
+        <h3 class="display-2 fw-bolder lh-lg">Rimantas Gintilas</h3>
+        <h4 class="font-monospace">Engineer, Project manager</h4>
+        <div class="row mt-3 mx-uto">
+            <ul class="row list-unstyled fs-5">
+                <li class="col"><a href="https://www.linkedin.com/in/rimantas-g-a36972b/"><i class="bi bi-linkedin text-light"></i></a></li>
+                <li class="col"><a href="https://www.facebook.com/rimantas.gintilas/"><i class="bi bi-facebook text-light"></i></a></li>
+<!--                <li class="col"><a href=""><i class="bi bi-github text-light"></i></a></li>-->
+<!--                <li class="col"><a href=""><i class="bi bi-globe text-light"></i></a></li>-->
+                <li class="col"><a href="mailto:gintilas.rimantas@gmail.com"><i class="bi bi-envelope  text-light"></i></a></li>
+            </ul>
+            
+        </div>
+    </div>
+
+</header>
+<!--MAIN-->
+<main class="row col-12 col-md-8">
+  <!--MAIN> ABOUT-->
+    <section id="About" class="ms-3">
+        <h2 class="font-monospace mt-4">about me</h2>
+        <div class="row col-12 text-success mt-3">
+            <div class="col">Exp/ 20+ years</div>
+            <div class="col">Location/ Klaipeda</div>
+            <div class="col">Expertise/ team leading, project management</div>
+        </div>
+        <p class="text-secondary mt-3">A dedicated, hardworking, adaptable professional with extensive working
+            experience in major onshore Oil & Gas Upstream Industry operation activities, but having huge interest in
+            renewable energy, industry decarbonization, digital technologies.
+</p>
+        <!--ABOUT> CV BUTTON & CONTENT-->
+        <!--ABOUT> CV BUTTON -->
+        <button class="btn btn-outline-success"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#ocAbout"
+                aria-controls="ocAbout"
+        >CV
+        </button>
+<!--ABOUT> CONTENT-->
+        <div class="offcanvas offcanvas-end w-75 bg-dark" tabindex="-1" id="ocAbout">
+            <div class="offcanvas-header">
+                <h5 class="text-success">Resume</h5>
+                <button
+                    type="button"
+                    class="btn-close btn-close-white"
+                    data-bs-dismiss="offcanvas"
+                  ></button>
+            </div>
+            <div class="offcanvas-body">
+                <h4 class="display-4 mb-3">Rimantas Gintilas</h4>
+                <h4 class="display-6 mb-4 text-white-50">Engineer, Project Manager</h4>
+                <h4 class="display-6 mb-2 font-monospace">About me</h4>
+                    <p class="text-white-50">I would describe myself as highly curious and focused on learning in personal and professional parts of my life. I looked for challenging problems to solve, where I could learn and develop the most. I have taken on many different types of projects, including the implementation of new ideas and technologies. No matter what I am working on, I am very invested. I identify anyone I can learn from, find the problems that I care about, I optimize every step of the process. I have been - in engineering, project management, managerial positions in various fields of the oil & energy industry for an extended time. Over the years, I have built an expertise in management, communication, and leadership. In my last position, I had to run the day-to-day activities of the production department, oversee a multidisciplinary team consisting of engineers, logistics, other specialists, manage the department budget, prepare wrap-up reports, directly negotiate with service providers. In my future carrier, I would like to use my expertise to impact the company's growth, to help grow and shape the team and culture. </p>
+                <h4 class="display-6 mb-2 font-monospace">Career objective</h4>
+                    <p class="text-white-50 bg-danger">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores in neque
+                    nulla, omnis perspiciatis quibusdam repellendus similique soluta suscipit totam!</p>
+                <h4 class="display-6 my-3 font-monospace">
+                    Skills <small class="fs-6">(and still growing)</small></h4>
+                <h5 class=" mb-2 font-monospace">
+<!--                    Lenguage skills-->
+                    Lenguage skills</h5>
+                    <p class="text-white-50">Mother tongue(s): Lithuanian</p>
+                <div class="row col-12 text-success mt-2">
+                    <div class="col">
+                        <p class="text-white-50">English</p>
+                    </div>
+                    <div class="col">
+                        <p class="text-white-50">Russian</p>
+                    </div>
+                </div>
+                <div class="row col-12 text-success mt-2">
+                    <div class="col">
+                        <div class="progress mb-1">
+                                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated "
+                                 role="progressbar"
+                                 style="width:80%"
+                            ></div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="progress mb-1">
+                            <div class="progress-bar bg-success progress-bar-striped progress-bar-animated"
+                                 role="progressbar"
+                                 style="width:80%"
+                            ></div>
+                        </div>
+                    </div>
+                </div>
+                <!--                    Digital skills-->
+                <h5 class=" my-2 font-monospace">
+                    Digital skills</h5>
+                <div class="row col-12 text-success mt-2">
+                    <div class="col">
+                        <p class="text-white-50">MS Office suit</p>
+                    </div>
+                    <div class="col">
+                        <p class="text-white-50">AutoCad, SolidWorks, Microsoft Project </p>
+                    </div>
+                </div>
+                <div class="row col-12 text-success mt-2">
+                    <div class="col">
+                        <div class="progress mb-1">
+                                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated "
+                                 role="progressbar"
+                                 style="width:85%"
+                            ></div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="progress mb-1">
+                            <div class="progress-bar bg-success progress-bar-striped progress-bar-animated"
+                                 role="progressbar"
+                                 style="width:70%"
+                            ></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row col-12 text-success mt-2">
+                    <div class="col">
+                        <p class="text-white-50">Python </p>
+                    </div>
+                    <div class="col">
+                        <p class="text-white-50">Power BI</p>
+                    </div>
+                </div>
+                <div class="row col-12 text-success mt-2">
+                    <div class="col">
+                        <div class="progress mb-1">
+                                <div class="progress-bar bg-success progress-bar-striped progress-bar-animated "
+                                 role="progressbar"
+                                 style="width:30%"
+                            ></div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="progress mb-1">
+                            <div class="progress-bar bg-success progress-bar-striped progress-bar-animated"
+                                 role="progressbar"
+                                 style="width:30%"
+                            ></div>
+                        </div>
+                    </div>
+                </div>
+                <!--                    COMMUNICATION AND INTERPERSONAL SKILLS-->
+                <h5 class=" my-2 font-monospace">
+                        Communication and interpersonal skills</h5>
+                    <ul class="text-white-50">
+                    <li>Empathic: I understand others and sympathize with people.</li>
+                    <li>Teamworking: I'm team-player, work effectively with others to reach common goals.</li>
+                    <li>Transparent: I'm honest communicator, actively listen, patient, open for constructive criticism, able to talk openly about success and failures without hiding things and feeling uncomfortable.</li>
+                    </ul>
+<!--                    ORGANIZATIONAL SKILLS-->
+                <h5 class=" my-2 font-monospace">
+                Organizational skills</h5>
+                    <ul class="text-white-50">
+                    <li>Leader: I led the department using organizational skills such as administrative, creative thinking, time management, planning, prioritizing, maintaining effectiveness expertise. </li>
+                    <li>Team leading: I'm good in task delegation, setting clear goals, open communication, collaboration, continuous learning, and knowledge sharing.</li>
+                    <li>Analytical personality: I'm gathering and considering the information at length before making a big decision, valuing data for root cause analysis, and problem-solving.</li>
+                    </ul>
+                <h5 class=" my-2 font-monospace">
+                Driving licence</h5>
+                    <ul class="text-white-50">
+                    <li>Driving licence: B </li>
+                    </ul>
+            </div>
+        </div>
+
+    </section>
+       <!-- MAIN > SERVICES -->
+      <section id="Services" class="ms-3">
+        <h2 class="font-monospace mt-4">my service</h2>
+        <div class="row row-cols-1 row-cols-md-2">
+          <!-- team leader -->
+          <div class="col card bg-transparent">
+            <div class="card-body">
+
+              <i class="fa fa-user h1 text-success"></i>
+              <h5 class="card-title mt-3">Team leader</h5>
+              <p class="card-text">
+                Led production department’s team.
+              </p>
+              <button
+                class="btn btn-outline-success w-100"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#oc_dev"
+                aria-controls="oc_dev"
+              >
+                more...
+              </button>
+              <!-- development > offcanvas -->
+              <div
+                class="offcanvas offcanvas-end w-75 bg-dark"
+                tabindex="-1"
+                id="oc_dev"
+              >
+                <div class="offcanvas-header">
+
+                  <h5 class="text-success">Team leader</h5>
+                  <button
+                    type="button"
+                    class="btn-close btn-close-white"
+                    data-bs-dismiss="offcanvas"
+                  ></button>
+                </div>
+                <div class="offcanvas-body">
+                    <i class="fa fa-user fa-4x"></i>
+                  <h4 class="display-4 mb-3">Experience as a team leader</h4>
+
+                  <p class="text-white-50 mt-2">
+                    5 years in production department leader's position.
+                  </p>
+                  <h4 class="display-4 mb-3">
+                    Briefly about the tasks
+                  </h4>
+
+                  <p class="text-white-50 mt-2">
+                    I was responsible for the production department for five years. Started from the department structural changes implementation and assembling the team. Later run the typical department routine: organized department's teamwork, prepared budget, production plans, and associated activities, delivered adequate resources for the team, supervised department's expenditures, ensured uphold of HSE policies and meeting of HSE targets. I represented the company in interactions with the authorities and contractors.
+                  </p>
+                    <h4 class="display-4 mb-3">The principals of a Team leader:</h4>
+                    <ul class="text-white-50">
+                        <li> Delegate, instruct and train, with the desire to serve. A servant-leader. Primarily focus on the growth and well-being of the team to which I belong.</li>
+                        <li>Be honest, humble, integral part of the team.</li>
+                        <li>Hold my self and my team accountable.</li>
+                        <li>Have a vision and be commited to it.</li>
+                        <li>A goal-driven with strong time management abilities, every goal set is specific, measurable, agreed, realistic and time-framed.</li>
+                        <li>Be successful stress manager.</li>
+                        <li>Avoid team dysfunctions and reward excellence.</li>
+                        <li>Stay a lifelong learner.</li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Project Manager -->
+          <div class="col card bg-transparent">
+            <div class="card-body">
+              <i class="fa fa-wrench h1 text-success"></i>
+              <h5 class="card-title mt-3">Project Manager</h5>
+              <p class="card-text">
+                Take full ownership and responsibility for project delivery.
+              </p>
+              <button
+                class="btn btn-outline-success w-100"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#oc_seo"
+                aria-controls="oc_seo"
+              >
+                more...
+              </button>
+              <!-- Project Manager > offcanvas -->
+              <div
+                class="offcanvas offcanvas-end w-75 bg-dark"
+                tabindex="-1"
+                id="oc_seo"
+              >
+                <div class="offcanvas-header">
+                  <h5 class="text-success">Project Manager</h5>
+                  <button
+                    type="button"
+                    class="btn-close btn-close-white"
+                    data-bs-dismiss="offcanvas"
+                  ></button>
+                </div>
+                <div class="offcanvas-body">
+                    <i class="fa fa-wrench fa-4x mb-4"></i>
+                    <h4 class="display-4 mb-3">The experience as a Project Manager</h4>                    <p class="text-white-50">
+                        The 15+ years of various projects execution in Lithuania and Oman.
+                    </p>
+                    <h4 class="display-4 mb-3">Briefly about the projects</h4>
+                    <p class="text-white-50">
+                        As a Project manager in Lithuania I executed various  projects for oil production, water injection, CO2 injection, open hole zonal isolation, hydraulic fracturing projects, gas utilization, wells drilling projects. Wells production evaluation projects in Oman were delivered.
+                    </p>
+                    <h4 class="display-4 mb-3">Task and duties as Project Manager performed:</h4>
+                    <ul class="text-white-50">
+                        <li>Took full ownership and responsibility for overall project management team and the projects
+                            they operate in, setup project milestones, deliverables, risk evaluation, ensure projects
+                            are delivered on-time, within the project scope budget and full customer satisfaction</li>
+                        <li>Coordinated internal resources and third parties/vendors for the flawless execution of multiple projects</li>
+                        <li>Ensured that all projects are delivered on-time, within scope and within budget</li>
+                        <li>Assist in the definition of project scope and objectives, involving all relevant internal
+                            stakeholders and ensuring technical feasibility</li>
+                        <li>Ensured resource availability and allocation</li>
+                        <li>Developed detailed workflow and executed project plans in a timely manner while monitored and tracked the progress</li>
+                        <li>Measured performance using appropriate project management tools and techniques</li>
+                        <li>Managed changes to the project scope, project schedule, and project costs using appropriate verification techniques</li>
+                        <li>Established and maintained relationships with third parties</li>
+                        <li>Collaborated with different business stakeholders, top management, team members and external vendors to achieve project objectives
+                        </li>
+                        <li>Regularly checked project status matching, analysed, reported discrepancies to the management</li>
+                        <li>Performed cost-benefit analysis by project specifications</li>
+                        <li>Identified areas for process improvements, supported best practice initiatives and participated in implementation processes</li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- data base -->
+<!--          <div class="col card bg-transparent">-->
+<!--            <div class="card-body">-->
+<!--              <i class="fa fa-calculator h1 text-success"></i>-->
+<!--              <h5 class="card-title mt-3">data base</h5>-->
+<!--              <p class="card-text">-->
+<!--                Building a custom tailored solution based on your technical-->
+<!--                specification..-->
+<!--              </p>-->
+<!--              <button-->
+<!--                class="btn btn-outline-success w-100"-->
+<!--                type="button"-->
+<!--                data-bs-toggle="offcanvas"-->
+<!--                data-bs-target="#oc_db"-->
+<!--                aria-controls="oc_db"-->
+<!--              >-->
+<!--                more...-->
+<!--              </button>-->
+<!--              &lt;!&ndash; data base > offcanvas &ndash;&gt;-->
+<!--              <div-->
+<!--                class="offcanvas offcanvas-end w-75 bg-dark"-->
+<!--                tabindex="-1"-->
+<!--                id="oc_db"-->
+<!--              >-->
+<!--                <div class="offcanvas-header">-->
+<!--                  <h5 class="text-success">data base</h5>-->
+<!--                  <button-->
+<!--                    type="button"-->
+<!--                    class="btn-close btn-close-white"-->
+<!--                    data-bs-dismiss="offcanvas"-->
+<!--                  ></button>-->
+<!--                </div>-->
+<!--                <div class="offcanvas-body">-->
+<!--                    <i class="fas fa-database fa-4x mb-4"></i>-->
+<!--                    <h4 class="display-4 mb-3">What is Database?</h4>-->
+<!--                        <p class="text-white-50">A database is an organized collection of structured-->
+<!--                    information, or data, typically stored electronically in a-->
+<!--                    computer system. A database is usually controlled by a-->
+<!--                    database management system (DBMS). ... Most databases use-->
+<!--                    structured query language (SQL) for writing and querying-->
+<!--                    data.</p>-->
+
+<!--                    <h4 class="display-4 mb-3">Database Management System (DBMS)</h4>-->
+<!--                        <p class="text-white-50">A database management system (DBMS) is a software package-->
+<!--                    designed to define, manipulate, retrieve and manage data in-->
+<!--                    a database. A DBMS generally manipulates the data itself,-->
+<!--                    the data format, field names, record structure and file-->
+<!--                    structure. It also defines rules to validate and manipulate-->
+<!--                    this data.</p>-->
+
+<!--                    <h4 class="display-4 mb-3">What are the types of databases?</h4>-->
+<!--                        <ul class="text-white-50">-->
+<!--                            <li>NoSQL databases.</li>-->
+<!--                            <li>Cloud databases.</li>-->
+<!--                            <li>Columnar databases.</li>-->
+<!--                            <li>Wide column databases.</li>-->
+<!--                            <li>Object-oriented databases.</li>-->
+<!--                            <li>Key-value databases.</li>-->
+<!--                            <li>Hierarchical databases.</li>-->
+<!--                            <li>Document databases.</li>-->
+<!--                        </ul>-->
+
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+          <!-- data security -->
+<!--          <div class="col card bg-transparent">-->
+<!--            <div class="card-body">-->
+<!--              <i class="bi bi-display h1 text-success"></i>-->
+<!--              <h5 class="card-title mt-3">data security</h5>-->
+<!--              <p class="card-text">-->
+<!--                Building a custom tailored solution based on your technical-->
+<!--                specification..-->
+<!--              </p>-->
+<!--              <button-->
+<!--                class="btn btn-outline-success w-100"-->
+<!--                type="button"-->
+<!--                data-bs-toggle="offcanvas"-->
+<!--                data-bs-target="#oc_ds"-->
+<!--                aria-controls="oc_ds"-->
+<!--              >-->
+<!--                more...-->
+<!--              </button>-->
+<!--              &lt;!&ndash; data security > offcanvas &ndash;&gt;-->
+<!--              <div-->
+<!--                class="offcanvas offcanvas-end w-75 bg-dark"-->
+<!--                tabindex="-1"-->
+<!--                id="oc_ds"-->
+<!--              >-->
+<!--                <div class="offcanvas-header">-->
+<!--                  <h5 class="text-success">data security</h5>-->
+<!--                  <button-->
+<!--                    type="button"-->
+<!--                    class="btn-close btn-close-white"-->
+<!--                    data-bs-dismiss="offcanvas"-->
+<!--                  ></button>-->
+<!--                </div>-->
+<!--                <div class="offcanvas-body">-->
+<!--                    <i class="fas fa-shield-alt fa-4x mb-4"></i>-->
+<!--                    <h4 class="display-4 mb-3">What is Data security?</h4>-->
+<!--                    <p class="text-white-50">Data security means protecting digital data, such as those-->
+<!--                    in a database, from destructive forces and from the unwanted-->
+<!--                    actions of unauthorized users, such as a cyberattack or a-->
+<!--                    data breach.</p>-->
+<!--                    <h4 class="display-4 mb-3">What are Data Security Standards (DSS)</h4>-->
+<!--                    <p class="text-white-50">PCI DSS is a set of regulations created by 5 major payment-->
+<!--                    card brands: Visa, MasterCard, American Express, Discover,-->
+<!--                    and JCB. The latest version of PCI DSS (version 3.2) was-->
+<!--                    released in April 2016 with the Council setting these-->
+<!--                    requirements for any business that processes credit or debit-->
+<!--                    card transactions. In a nutshell, DSS requires that your-->
+<!--                    organization is compliant with 12 general data security-->
+<!--                    requirements that include over 200 sub-requirements. The-->
+<!--                    types of requirements and sub-requirement ultimately depend-->
+<!--                    on your business and how many credit card transactions that-->
+<!--                    you perform on a yearly basis. Just checking the PCI DSS-->
+<!--                    compliance boxes isnt the best route to travel if your-->
+<!--                    organization wants to ensure effective protection of every-->
+<!--                    data security situation.</p>-->
+<!--                    <h4 class="display-4 mb-3">Our offers for (DS)</h4>-->
+<!--                    <ul class="list-unstyled">-->
+<!--                        <li class="mb-2">-->
+<!--                            <button type="button"-->
+<!--                                    class="btn btn-outline-success"-->
+<!--                                    data-bs-toggle="collapse"-->
+<!--                                    data-bs-target="#category-1"-->
+<!--                                    aria-expanded="false"-->
+<!--                                    aria-controls="category-1"-->
+<!--                            >-->
+<!--                                Category-1-->
+<!--                            </button>-->
+<!--                            <div class="collapse" id="category-1">-->
+<!--                                <div class="card card-body bg-dark text-white-50">-->
+<!--                                    (Build and Maintain a Secure Network) focuses on the-->
+<!--                          network security of your cardholder data environment-->
+<!--                          (CDE). Your organization must address the creation and-->
+<!--                          maintenance of a network protected from malicious-->
+<!--                          individuals via physical and virtual means. Using-->
+<!--                          hardware and/or software firewall technology can help-->
+<!--                          to provide perimeter protection for a CDE, thus-->
+<!--                          helping to ensure that public information cannot be-->
+<!--                          used by hackers to access your systems.-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </li>-->
+<!--                        <li class="mb-2">-->
+<!--                            <button type="button"-->
+<!--                                    class="btn btn-outline-success"-->
+<!--                                    data-bs-toggle="collapse"-->
+<!--                                    data-bs-target="#category-2"-->
+<!--                                    aria-expanded="false"-->
+<!--                                    aria-controls="category-2"-->
+<!--                            >-->
+<!--                                Category-2-->
+<!--                            </button>-->
+<!--                            <div class="collapse" id="category-2">-->
+<!--                                <div class="card card-body bg-dark text-white-50">-->
+<!--                                    (Protect Cardholder Data) focuses on guidance and-->
+<!--                          testing procedures for data retention, transmission-->
+<!--                          and disposal policies. Basically, this category is a-->
+<!--                          reflection on how your company handles cardholder data-->
+<!--                          (CHD) when it is necessary and how it disposes of said-->
+<!--                          data when it is unnecessary to store it.-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </li>-->
+<!--                        <li class="mb-2">-->
+<!--                            <button type="button"-->
+<!--                                    class="btn btn-outline-success"-->
+<!--                                    data-bs-toggle="collapse"-->
+<!--                                    data-bs-target="#category-3"-->
+<!--                                    aria-expanded="false"-->
+<!--                                    aria-controls="category-3"-->
+<!--                            >-->
+<!--                                Category-3-->
+<!--                            </button>-->
+<!--                            <div class="collapse" id="category-3">-->
+<!--                                <div class="card card-body bg-dark text-white-50">-->
+<!--                                    (Maintain a Vulnerability Management Program) focuses-->
+<!--                          on assessing system and application vulnerabilities-->
+<!--                          (current and future). The Council provides guidance-->
+<!--                          and testing procedures that pertain to malware,-->
+<!--                          software patches, policies and internal procedures for-->
+<!--                          the basis of this category.-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </li>-->
+<!--                        <li class="mb-2">-->
+<!--                            <button type="button"-->
+<!--                                    class="btn btn-outline-success"-->
+<!--                                    data-bs-toggle="collapse"-->
+<!--                                    data-bs-target="#category-4"-->
+<!--                                    aria-expanded="false"-->
+<!--                                    aria-controls="category-4"-->
+<!--                            >-->
+<!--                                Category-4-->
+<!--                            </button>-->
+<!--                            <div class="collapse" id="category-4">-->
+<!--                                <div class="card card-body bg-dark text-white-50">-->
+<!--                                    (Implement Strong Access Control Measures) focuses on-->
+<!--                          limiting availability to authorized persons or-->
+<!--                          applications via the creation of strong security-->
+<!--                          mechanisms. Remaining selective as to who retains PCI-->
+<!--                          administrative access allows your organization to-->
+<!--                          control measures that allow you to achieve security-->
+<!--                          and PCI DSS compliance.-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </li>-->
+
+<!--                    </ul>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+          <!-- SERVICES > Leadership OFFCANVAS -->
+          <!-- SERVICES > SEO OFFCANVAS -->
+          <!-- SERVICES > DATA BASE OFFCANVAS -->
+          <!-- SERVICES > DATA SECURITY OFFCANVAS -->
+        </div>
+      </section>
+
+     <!--CONTACT-->
+    <section id="Contact" class="ms-3">
+        <h2 class="font-monospace mt-4">contact me</h2>
+        <ul class="row list-unstyled text-sm-start text-center">
+            <li class="text-success">Rimantas Gintilas</li>
+            <li class="col-6 p-2"><i class="bi bi-geo-alt text-success"></i> J. Zembrickio 10-1a, Klaipeda, Lithuania</li>
+            <li class="col-6 p-2"><i class="bi bi-telephone text-success"></i> +370 699 54990</li>
+<!--            <li class="col-6 p-2"><i class="bi bi-phone text-success"></i> +751-6544-648</li>-->
+            <li class="col-6 p-2"><i class="bi bi-envelope text-success"></i> gintilas.rimantas@gmail.com</li>
+        </ul>
+    </section>
+
+</main>
+<!--FOOTER-->
+<footer class="position-fixed bottom-0 bg-success text-center">
+    <small class="col">2021 Rimantas Gintilas</small>
+</footer>
+
+
+
+    <!-- script Bootstrap JS CDN -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+<!--  script for tooltips-->
+    <script>
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+    </script>
+</body>
+</html>
